@@ -1,0 +1,4 @@
+Main Color: #E7404A
+Body Font : #656b6f
+Heading Text Color: #3b3d40
+Text Color: #ffffff
