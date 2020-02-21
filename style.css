@@ -213,12 +213,27 @@ body{
 	margin-left: auto;
 	margin-right: auto;
   }
+
   .swiper-slide {
+	position: relative;
 	display: flex;
 	align-items: center;
 	height: 600px;
 	background-size: cover;
 	background-position: center;
+  }
+  .swiper-slide ::after{
+	  content: "";
+	  position: absolute;
+	  background: rgba(0, 0, 0, 0.15);
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  z-index: -1;
+  }
+  .zindex{
+	  z-index: 2;
   }
   .gallery-top {
 	height: 80%;
