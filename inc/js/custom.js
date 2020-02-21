@@ -50,5 +50,20 @@
 		  swiper: galleryThumbs,
 		},
 	  });
+
+	  //Products Slider
+	  var swiper2 = new Swiper('.swiper2', {
+		slidesPerView: 4,
+		spaceBetween: 30,
+		slidesPerGroup: 1,
+		loop: true,
+		loopFillGroupWithBlank: false,
+		
+		navigation: {
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		  fontSize: 20
+		},
+	  });
 	
   })(jQuery); 

@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+html, body {
+	position: relative;
+	height: 100%;
+  }
 /* Please ❤ this if you like it! */
 
 
@@ -209,7 +212,7 @@ body{
 ================================================== */
 .swiper-container {
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
   }
@@ -236,7 +239,7 @@ body{
 	  z-index: 2;
   }
   .gallery-top {
-	height: 80%;
+	height: 600px;
 	width: 100%;
   }
   .gallery-thumbs {
@@ -262,6 +265,49 @@ body{
     padding: 12px 60px;
     font-size: 22px;
 }
+/* #Product Slider Area
+================================================== */
+
+.bh-product-slider {
+	height: 350px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+  }
+.bh-product-slider-item{
+	border: 1px solid #ddd;
+}
+
+.bh-product-prev, .bh-product-next{
+	top: 5%;
+	color: #fff;
+	--swiper-navigation-size: 20px;
+	background: #E7404A;
+	padding: 16px;;
+}
+.bh-product-prev{
+	right: 65px;
+	left: auto;
+}
+.bh-product-slider-item img{
+	width: 100%;
+}
+
 
 /* #Media
 ================================================== */
