@@ -1,4 +1,5 @@
-Main Color: #E7404A
-Body Font : #656b6f
-Heading Text Color: #3b3d40
-Text Color: #ffffff
+Main Color: #E7404A Red
+Product Color: #ADC52F Green
+Body Font : #656b6f Gray
+Heading Text Color: #3b3d40 Dark
+Text Color: #ffffff White
