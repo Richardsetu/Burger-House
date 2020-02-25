@@ -222,6 +222,7 @@ body{
 	display: flex;
 	align-items: center;
 	height: 600px;
+	cursor: pointer;
 	background-size: cover;
 	background-position: center;
   }
